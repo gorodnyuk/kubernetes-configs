@@ -58,5 +58,6 @@ data: # параметы = application.yml
   POSTGRES_HOST: "127.0.0.1"
   POSTGRES_PORT: "5432"
   POSTGRES_USER: "ca"
+  # если нужно, можно указать ссылку для другого сервиса в виде OTHER_SERVICE: http://my-other-service:80/api/v1/hello
 
 ---
